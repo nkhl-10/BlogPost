@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PostBlog</string>
+    <string name="home" />
+    <string name="search" />
+    <string name="notifications" />
+    <string name="profile" />
+    <string name="Add_Post" />
+    <string name="loremipsum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ads_id" translatable="false">
+        ca-app-pub-7386124998475289~9566690526
+    </string>
+    <string name="banner" translatable="false">
+        ca-app-pub-7386124998475289/8701111662
+    </string>
+    <string name="video_ads" translatable="false">
+        ca-app-pub-7386124998475289/3269693723
+    </string>
+</resources>
