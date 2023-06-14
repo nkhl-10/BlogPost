@@ -45,4 +45,23 @@ public interface APIinterface {
     Call<PostResult>postid(@Field("id") String id);
 
 
+    @FormUrlEncoded
+    @POST("Postblog/Post/postlike.php")
+    Call<PostResult>postlikes(@Field("id") String id,@Field("post_id") String post_id);
+
+    @FormUrlEncoded
+    @POST("Postblog/Post/likedone.php")
+    Call<PostResult>setlike(@Field("user_id") String id,@Field("post_id") String post_id);
+
+
+    @FormUrlEncoded
+    @POST("Postblog/Post/dislike.php")
+    Call<PostResult>deslike(@Field("user_id") String id,@Field("post_id") String post_id);
+
+
+    @FormUrlEncoded
+    @POST("Postblog/Post/save.php")
+    Call<PostResult>savepost(@Field("user_id") String id,@Field("post_id") String post_id);
+
+
 }

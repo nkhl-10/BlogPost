@@ -294,4 +294,31 @@ public class Post {
     public void setContent2(String content2) {
         this.content2 = content2;
     }
+
+
+    @SerializedName("action")
+    @Expose
+    private String action;
+
+    public String getaction() {
+        return action;
+    }
+
+    public void setaction(String action) {
+        this.action = action;
+    }
+
+
+    @SerializedName("like_id")
+    @Expose
+    private String like_id;
+
+    public String getlike_id() {
+        return like_id;
+    }
+
+    public void setlike_id(String like_id) {
+        this.like_id = like_id;
+    }
+
 }

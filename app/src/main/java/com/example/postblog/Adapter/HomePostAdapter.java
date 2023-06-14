@@ -139,6 +139,7 @@ public class HomePostAdapter extends RecyclerView.Adapter<HomePostAdapter.Myclas
                 public void onClick(View view) {
                     Intent intent = new Intent(context, content.class);
                     intent.putExtra("id" , arrayList.get(getAdapterPosition()).getUserId());
+                    intent.putExtra("postid" , arrayList.get(getAdapterPosition()).getPostId());
                     context.startActivity(intent);
                 }
             });

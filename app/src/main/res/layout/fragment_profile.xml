@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             app:title="  Profile"
             app:titleMargin="10dp"
-            app:titleTextColor="@color/white"/>
+            app:titleTextColor="@color/black"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -25,6 +25,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        android:background="@color/purple_50"
         android:orientation="vertical">
 
 
@@ -159,7 +161,9 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:background="@drawable/bg_button"
+                android:layout_marginBottom="10dp"
                 android:text="Edit Profile"
+                android:textColor="@color/black"
                 android:textSize="14sp" />
 
 
@@ -184,8 +188,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:id="@+id/tablayout"
-            android:layout_marginTop="10dp"
-            android:background="@color/white"
+            android:background="@color/purple_50"
             app:tabIndicatorColor="@color/purple_500"
             app:tabIndicatorHeight="2dp"
             app:tabMode="fixed"
@@ -194,6 +197,8 @@
         <androidx.viewpager.widget.ViewPager
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
+            android:background="@color/purple_50"
             android:id="@+id/pager"  />
 
     </LinearLayout>
